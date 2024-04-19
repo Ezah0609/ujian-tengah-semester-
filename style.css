@@ -1,0 +1,76 @@
+.centered-links {
+    text-align: center;
+}
+
+.centered-links a {
+    display: inline-block; /* Tambahkan titik koma (;) di sini */
+    margin: 0 10px; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+section figure {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
